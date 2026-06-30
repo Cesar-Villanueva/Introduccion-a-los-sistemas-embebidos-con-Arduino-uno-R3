@@ -1,0 +1,85 @@
+1. LED Rojo
+Terminal	Conexión
+Ánodo (+)	Pin 13 del Arduino Mega
+Cátodo (-)	Resistencia de 220 Ω → GND
+
+
+2. LED Amarillo
+Terminal	Conexión
+Ánodo (+)	Pin 12 del Arduino Mega
+Cátodo (-)	Resistencia de 220 Ω → GND
+
+3. LED Verde
+Terminal	Conexión
+Ánodo (+)	Pin 11 del Arduino Mega
+Cátodo (-)	Resistencia de 220 Ω → GND
+
+
+4. Sensor Ultrasónico HC-SR04
+Terminal	Conexión
+VCC		5 V
+GND		GND
+TRIG		Pin 22
+ECHO		Pin 23
+
+
+
+5. Servomotor SG90
+Cable		Conexión
+Rojo		5 V
+Café (o Negro)	GND
+Naranja (Señal)	Pin 28
+
+6. Motor a Pasos 28BYJ-48 con ULN2003
+Módulo ULN2003
+Terminal	Conexión
+IN1		Pin 24
+IN2		Pin 25
+IN3		Pin 26
+IN4		Pin 27
+5V		5 V
+GND		GND
+
+7. Sensor de Nivel de Agua
+Terminal	Conexión
+S (Signal)	A0
++		5 V
+-		GND
+
+8. Buzzer Activo
+Terminal	Conexión
++		Pin 29
+-		GND
+
+
+9. Pantalla LCD 16x2 con Módulo I2C
+Terminal	Conexión
+GND		GND
+VCC		5 V
+SDA		Pin 20
+SCL		Pin 21
+
+
+10. Lector RFID RC522
+Terminal RC522	Conexión
+SDA (SS)	Pin 53
+SCK		Pin 52
+MOSI		Pin 51
+MISO		Pin 50
+IRQ		No conectar
+GND		GND
+RST		Pin 5
+3.3 V		3.3 V
+
+
+11. Teclado Matricial 4x4
+
+Pin del teclado	     Conexión
+Pin 1 (Fila 1)		30
+Pin 2 (Fila 2)		31
+Pin 3 (Fila 3)		32
+Pin 4 (Fila 4)		33
+Pin 5 (Columna 1)	34
+Pin 6 (Columna 2)	35
+Pin 7 (Columna 3)	36
+Pin 8 (Columna 4)	37
